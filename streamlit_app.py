@@ -43,12 +43,42 @@ st.markdown("""
         border-right: 1px solid #334155;
     }
     
+    /* ALL sidebar text bright and readable */
+    [data-testid="stSidebar"] * {
+        color: #e2e8f0 !important;
+    }
+
     [data-testid="stSidebar"] h1 {
         font-family: 'Outfit', sans-serif;
         font-size: 1.5rem !important;
         color: #38bdf8 !important;
         font-weight: 700;
         margin-bottom: 2rem !important;
+    }
+
+    [data-testid="stSidebar"] h2,
+    [data-testid="stSidebar"] h3,
+    [data-testid="stSidebar"] h4 {
+        color: #f1f5f9 !important;
+        font-weight: 600;
+    }
+
+    /* Sidebar labels (slider, toggle labels etc.) */
+    [data-testid="stSidebar"] label,
+    [data-testid="stSidebar"] p,
+    [data-testid="stSidebar"] span,
+    [data-testid="stSidebar"] div {
+        color: #cbd5e1 !important;
+    }
+
+    /* Sidebar markdown bold text */
+    [data-testid="stSidebar"] strong {
+        color: #f8fafc !important;
+    }
+
+    /* Sidebar divider */
+    [data-testid="stSidebar"] hr {
+        border-color: #334155 !important;
     }
 
     /* Dashboard Header */
